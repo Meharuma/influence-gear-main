@@ -1,0 +1,208 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    margin-left: 120px;
+    margin-right: 150px;
+    margin-top: 87px;
+}
+header{
+    font-weight: bold;
+    font-size: 24px;
+    color: #3A3A3A
+}
+/* 1st section */
+
+.influencer-journey{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.influencer h1{
+    font-weight: bold;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.influencer p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+.influencer button{
+    background: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: white;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+}
+.fa-arrow-right{
+    color: white;
+}
+.influencer-camera:hover img{
+    transition: transform 2s ease-in-out;
+    transform: scale(120%);
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 1000px;
+    margin-right: 200px;
+}
+.icon svg{
+    width: 55.05px;
+    height: 31.06px;
+}
+h2{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+
+/* products collection */
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 10px;
+}
+.collection{
+    width: fit-content;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.collection img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    padding-top: 17px;
+    padding-right: 15px;
+}
+.collection:hover img{
+    transition: transform 2s ease-in-out;
+    transform: scale(110%);
+}
+.collection h4{
+    font-size: 28px;
+    margin-bottom: 14px;
+    color: #18191F;
+}
+.collection h5{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.filled{
+    font-size: 12px;
+    color: #FB8200;
+}
+span{
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+.collection p{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #787885;
+}
+
+/* see more */
+
+.more h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: right;
+}
+.more .fas{
+    font-weight: bold;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* special part */
+
+.outreach{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.featuring img{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+.featured{
+    margin-left: 100px;
+}
+.featured h1{
+    font-weight: bold;
+    font-size: 38px;
+    color: #0A0826;
+}
+.featured p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+.featured button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    width: 155px;
+    height: 44px;
+    color: white;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(10, 10, 32);
+    text-align: center;
+    font-weight: bold;
+}
+footer h4{
+    font-size: 24px;
+    color: white;
+    padding-top: 50px;
+    margin: 0;
+}
+footer p{
+    padding-top: 3px;
+    font-size: 14px;
+    color: #D9DBE1;
+    padding-top: 3px;
+    margin: 0;
+}
+.footer{
+    color: white;
+    font-size: 12px;
+    margin: 30px 16px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+    }
+    header{
+        text-align: center;
+    }
+
+}
