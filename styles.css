@@ -41,9 +41,10 @@ header{
 .fa-arrow-right{
     color: white;
 }
+
 .influencer-camera:hover img{
     transition: transform 2s ease-in-out;
-    transform: scale(120%);
+    transform: scale(110%);
 }
 .icon{
     display: grid;
@@ -197,12 +198,49 @@ footer p{
     padding-bottom: 10px;
 }
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:600px) {
     body{
         width: 100%;
     }
     header{
         text-align: center;
     }
-
+    .influencer-journey, .outreach{
+        flex-direction: column;
+        text-align: center;
+    }
+   hr, .icon{
+        display: none;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured{
+        margin: 0;
+    }
 }
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    body{
+        width: 100%;
+    }
+    header{
+        text-align: center;
+    }
+    .influencer-journey, .outreach{
+        flex-direction: column;
+        text-align: center;
+    }
+   hr, .icon{
+        display: none;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .featured{
+        margin: 0;
+    }
+}
+
